@@ -16,5 +16,5 @@ begin
 			fact := fact*i;
 		end loop;
 	end if;
-	Put("The factorial is");Put(fact);
+	Put_Line("The factorial is" & fact'Img);
 end;
